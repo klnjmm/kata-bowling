@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60098bcac5bc5863fa68c8a5da1ab5fe",
+    "content-hash": "1ce2e950be130de1cb6f1e5cdc3b7927",
     "packages": [],
     "packages-dev": [
         {
             "name": "atoum/atoum",
-            "version": "3.3.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atoum/atoum.git",
-                "reference": "c5279d0ecd4e2d53af6b38815db2cafee8fc46b6"
+                "reference": "56e9c55cab42086c2eb6bd30fcf1e242f9c51f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/atoum/zipball/c5279d0ecd4e2d53af6b38815db2cafee8fc46b6",
-                "reference": "c5279d0ecd4e2d53af6b38815db2cafee8fc46b6",
+                "url": "https://api.github.com/repos/atoum/atoum/zipball/56e9c55cab42086c2eb6bd30fcf1e242f9c51f52",
+                "reference": "56e9c55cab42086c2eb6bd30fcf1e242f9c51f52",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "php": "^5.6.0 || ^7.0.0 <7.4.0"
+                "php": "^7.2 || ^8.0"
             },
             "replace": {
                 "mageekguy/atoum": "*"
@@ -45,7 +45,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "4.x-dev"
                 }
             },
             "autoload": {
@@ -88,7 +88,7 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2018-03-15T22:46:39+00:00"
+            "time": "2020-11-21T17:23:11+00:00"
         },
         {
             "name": "atoum/stubs",
@@ -139,16 +139,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.2",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8"
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
-                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-04-10T23:49:02+00:00"
+            "time": "2021-04-09T00:54:41+00:00"
         }
     ],
     "aliases": [],
@@ -195,7 +195,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~7.1"
+        "php": "~8"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
